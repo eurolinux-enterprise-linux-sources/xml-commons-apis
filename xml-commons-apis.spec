@@ -1,6 +1,6 @@
 Name:          xml-commons-apis
 Version:       1.4.01
-Release:       15%{?dist}
+Release:       16%{?dist}
 Summary:       APIs for DOM, SAX, and JAXP
 License:       ASL 2.0 and W3C and Public Domain
 URL:           http://xml.apache.org/commons/
@@ -114,6 +114,9 @@ rm -rf build/docs/javadoc
 %{_javadocdir}/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4.01-16
+- Mass rebuild 2013-12-27
+
 * Thu Nov 07 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 1.4.01-15
 - Use add_maven_depmap instead of deprecated
 - Resolves: rhbz#1027721
